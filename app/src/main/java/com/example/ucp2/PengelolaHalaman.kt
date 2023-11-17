@@ -69,6 +69,7 @@ fun FormPengajuan(
 }
 
 private fun cancelOrderAndNavigateToRasa(
-    navController: NavHostController) {
+    navController: NavHostController)
+{
     navController.popBackStack(PengelolaHalaman.Formulir.name, inclusive = false)
 }

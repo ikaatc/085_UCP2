@@ -46,7 +46,6 @@ fun HalamanSatu(
                 Image(
                     painter = image,
                     contentDescription = null,
-                    contentScale = ContentScale.Crop
                 )
                 Button(onClick = onSubmitButtonClicked) {
                     Text(stringResource(id = R.string.submit))

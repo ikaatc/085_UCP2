@@ -52,7 +52,7 @@ fun HalamanTiga(
             }
             Button(
                 modifier = Modifier.fillMaxWidth(),
-                onClick = { onBackButtonClicked }) {
+                onClick = onBackButtonClicked) {
                 Text(stringResource(id = R.string.back))
             }
         }
