@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">UCP2</string>
+    <string name="nama">Nama Mahasiswa</string>
+    <string name="nim">NIM</string>
+    <string name="konsen">Konsentrasi</string>
+    <string name="judul">Judul Skripsi</string>
+    <string name="dospem1">Dosen Pembimbing 1</string>
+    <string name="dospem2">Dosen Pembimbing 2</string>
+    <string name="dosen1">Haris Setiawan</string>
+    <string name="dosen2">Dwi Djoko P</string>
+    <string name="dosen3">Aprilia Kurnianti</string>
+    <string name="submit">Submit</string>
+    <string name="back">Back</string>
+    <string name="form">Formulir Pengajuan Skripsi</string>
 </resources>
