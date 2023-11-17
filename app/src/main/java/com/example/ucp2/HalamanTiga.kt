@@ -38,10 +38,6 @@ fun HalamanTiga(
             modifier = Modifier.padding(16.dp),
             verticalArrangement = Arrangement.spacedBy(8.dp)
         ) {
-            Text(stringResource(id = R.string.form))
-
-            Spacer(modifier = Modifier.padding(16.dp))
-
             items.forEach{item ->
                 Column {
                     Text(item.first.uppercase())
@@ -53,12 +49,11 @@ fun HalamanTiga(
                 Divider()
 
                 Spacer(modifier = Modifier.padding(16.dp))
-
-                Button(
-                    modifier = Modifier.fillMaxWidth(),
-                    onClick = { onBackButtonClicked }) {
-                    Text(stringResource(id = R.string.back))
-                }
+            }
+            Button(
+                modifier = Modifier.fillMaxWidth(),
+                onClick = { onBackButtonClicked }) {
+                Text(stringResource(id = R.string.back))
             }
         }
     }

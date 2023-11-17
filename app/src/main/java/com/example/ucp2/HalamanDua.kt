@@ -59,14 +59,6 @@ fun HalamanDua(
             .padding(16.dp)
             .fillMaxSize()
     ) {
-        OutlinedCard(
-            colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
-            border = BorderStroke(1.dp, Color.Black),
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(vertical = 50.dp)
-                .align(Alignment.CenterHorizontally)
-        ) {
             Text(
                 stringResource(id = R.string.form),
                 fontSize = 25.sp,
@@ -168,7 +160,6 @@ fun HalamanDua(
             {
                 Text(stringResource(id = R.string.submit))
             }
-        }
     }
 }
 
